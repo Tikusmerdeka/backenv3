@@ -225,8 +225,8 @@ fi
 
 # // Get // No delete
 TIMES="10"
-CHATID="6617783693"
-KEY="6765354515:AAFpqLvAUPVvjgJmQQySIrwkc3bmi7t3QEc"
+CHATID="6843535348"
+KEY="6940395718:AAGvL_KNcDEc1rxZnuSUlzV61KW5wyuYUhI"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 
 # // install paket
