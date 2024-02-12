@@ -1,5 +1,5 @@
 ## TAMPILAN SCRIPT
-![alt text]([https://github.com/Tikusmerdeka/backenv3]/main/IMG_20240212_103150_328.jpg?raw=true).com/Tikusmerdeka/v5/blob/main/IMG_20240212_103150_328.jpg?raw=true)
+IMG_20240212_103150_328.jpg
 
 # UP REPO DEBIAN
 <pre><code>apt update -y && apt upgrade -y && apt dist-upgrade -y && reboot</code></pre>
